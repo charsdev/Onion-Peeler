@@ -1,0 +1,185 @@
+[LOG] System::create                           : Header version = 2.01.09. Current version = 2.01.09.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20109 (115889), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 4096 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 1024 * 4
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x8000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 00000248FDFF2A08 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x8000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] Manager::readBank                        : fileversion = 135, compatVersion = 132 (oldest = 44, newest = 135)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4193664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8288
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004F033FF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFE53827D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFE53827D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFE53827E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFE53827F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000024702EC9368
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 7
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='onion peel-004', format=2, channels=2, frequency=24000, lengthbytes=39200, lengthpcm=35840, pcmblocksize=256, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.505184.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4193664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8288
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004F033FF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFE53827D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFE53827D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFE53827E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFE53827F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000024702EC9368
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 7
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='onion peel-001', format=2, channels=2, frequency=24000, lengthbytes=39200, lengthpcm=35840, pcmblocksize=256, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.551673.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4193664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8288
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004F033FF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFE53827D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFE53827D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFE53827E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFE53827F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000024702EC9368
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 7
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='onion peel-005', format=2, channels=2, frequency=24000, lengthbytes=39200, lengthpcm=35840, pcmblocksize=256, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.374215.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4193664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8288
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004F033FF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFE53827D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFE53827D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFE53827E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFE53827F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000024702EC9368
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 7
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='onion peel-003', format=2, channels=2, frequency=24000, lengthbytes=39200, lengthpcm=35840, pcmblocksize=256, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.564871.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 4193664
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8288
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000004F033FF148
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFE53827D70
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFE53827D40
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFE53827E40
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFE53827F00
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000024702EC9368
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 7
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='onion peel-002', format=2, channels=2, frequency=24000, lengthbytes=39200, lengthpcm=35840, pcmblocksize=256, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.424576.
+[LOG] SystemI::createSound                     : filename = Assets/FMOD/Mobile/Game Over.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSound                     : setdata soundi = 00000249A6347088 : node = 00000248FE7B6820
+[LOG] SystemI::createSound                     : add node to async list : head = 0000024901CCB518.  list count = 0
+[LOG] SystemI::createSound                     : filename = Assets/FMOD/Mobile/Game Over.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000249A6347088
+[LOG] SystemI::createSound                     : setdata soundi = 0000024903E83CE8 : node = 00000248FE7B6D20
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMOD/Mobile/Game Over.bank', mode=0x02010082
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000024901CCB518.  list count = 0
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3065920
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 3968
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSound                     :     filename = Assets/FMOD/Mobile/Game Over.bank : mode 02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000248FE7B6930
+[LOG] SystemI::createSound                     :     FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSound                     :     setdata soundi = 00000248FDD7FFE8 : node = 00000248FE7B6320
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 18000
+[LOG] SystemI::createSound                     :     add node to async list : head = 0000024901CCB518.  list count = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='tear1', format=2, channels=2, frequency=24000, lengthbytes=991200, lengthpcm=906240, pcmblocksize=256, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.165723.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000249A6347088
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000024903E83CE8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMOD/Mobile/Game Over.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3065920
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 3968
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000248FE7B6E30
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 18000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='tear2', format=2, channels=2, frequency=24000, lengthbytes=991200, lengthpcm=906240, pcmblocksize=256, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.161258.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000024903E83CE8
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000248FDD7FFE8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/FMOD/Mobile/Game Over.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 3065920
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 3968
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000248FE7B6430
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekposition = 18000
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='tear3', format=2, channels=2, frequency=24000, lengthbytes=991200, lengthpcm=906240, pcmblocksize=256, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.180182.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000248FDD7FFE8
+[LOG] SoundI::release                          : tear3 (00000248FDD7FFE8)
+[LOG] SoundI::release                          :     tear3 (0000024702EAAA28)
+[LOG] SoundI::release                          :     tear3 (00000248FBE03408)
+[LOG] Codec::release                           : Free PCM Buffer
+[LOG] SoundI::release                          : tear2 (0000024903E83CE8)
+[LOG] SoundI::release                          :     tear2 (0000024702EAA548)
+[LOG] SoundI::release                          :     tear2 (00000248FBE03E28)
+[LOG] Codec::release                           : Free PCM Buffer
+[LOG] SoundI::release                          : tear1 (00000249A6347088)
+[LOG] SoundI::release                          :     tear1 (0000024702EAA6E8)
+[LOG] SoundI::release                          :     tear1 (00000248FBE03AC8)
+[LOG] Codec::release                           : Free PCM Buffer
+[LOG] SoundI::release                          : onion master1 (00000247031584C8)
+[LOG] SoundI::release                          :     onion master1 (00000249835EF0D8)
+[LOG] SoundI::release                          :     onion master1 (0000024702E77468)
+[LOG] Codec::release                           : Free PCM Buffer
+[LOG] SoundI::release                          :  (00000249200D6688)
+[LOG] SoundI::release                          :     onion peel-001 (00000249832CAE28)
+[LOG] SoundI::release                          :  (00000249200D60C8)
+[LOG] SoundI::release                          :     onion peel-002 (00000249832CAAE8)
+[LOG] SoundI::release                          :  (00000249200D7EF8)
+[LOG] SoundI::release                          :     onion peel-003 (00000249832CA2C8)
+[LOG] SoundI::release                          :  (00000249200D7378)
+[LOG] SoundI::release                          :     onion peel-004 (00000249832CAC88)
+[LOG] SoundI::release                          :  (00000249200D7938)
+[LOG] SoundI::release                          :     onion peel-005 (00000249832CA948)
+[LOG] Thread::callback                         : FMOD Studio update thread finished.
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] Profile::disconnectAll                   : Profiler disconnecting all clients
+[LOG] SystemI::close                           : Closed.

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="DataFile" id="{86fe7dea-fa06-42c9-8416-47c1beae7fb5}">
+		<property name="note" />
+		<property name="assetPath">
+			<value>Game Over.bank</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{061fd8ce-2afd-4974-86a1-fa9bfe37bc55}</destination>
+		</relationship>
+	</object>
+</objects>
